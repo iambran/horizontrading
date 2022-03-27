@@ -1,10 +1,10 @@
-import Meta from '../components/Meta'
-import Header from '../components/Header'
-import Layout, {siteTitle} from '../components/Layout'
+import Meta from '../../components/Meta'
+import Header from '../../components/Header'
+import Layout, {siteTitle} from '../../components/Layout'
 import Link from 'next/link'
 import Image from 'next/image'
-import ProductList from './api/ProductList.js'
-import ProductCategory from './api/ProductCategory.js'
+import ProductList from '../api/ProductList.js'
+import ProductCategory from '../api/ProductCategory.js'
 
 const imageDir = "/images/";
 
