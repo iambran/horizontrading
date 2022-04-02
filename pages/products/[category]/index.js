@@ -35,16 +35,29 @@ export default function Home({ slug, category, categoryID, products }) {
         <div className="has-border p-4 px-6 m-1 mb-4">
           <nav className="breadcrumb is-small mb-0 mt-4" aria-label="breadcrumbs">
             <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/products">Products</a></li>
-              <li><a href={"/products/" + slug}>{category}</a></li>
+              <li>
+                <Link href="/">
+                  <a>Home</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/products">
+                  <a>Products</a>
+                </Link>
+              </li>
+              <li>
+                <Link href={"/products/" + slug}>
+                  <a>{category}</a>
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="columns px-0 py-4 is-flex-wrap-wrap m-0 with-custom-column-gap">
           {products.map(product => {
             return (
               <div className="column is-6 mb-4 p-0" key={product.product}>
-                <a href={"/products/" + slug + '/' + product.product} className="has-custom-cursor category-link">
+              <Link href={"/products/" + slug + '/' + product.product}>
+                <a className="has-custom-cursor category-link">
                   <div className="columns is-flex-direction-column is-vcentered m-0">
                     <div className="column has-text-centered has-border m-4 bottom-margin-only-mobile" style={{width: "100%"}}>
                       <img src={imageDir + product["product-image"]} alt="Diesel Water Pump" width="400" height="auto" />
@@ -55,6 +68,7 @@ export default function Home({ slug, category, categoryID, products }) {
                     </div>
                   </div>
                 </a>
+              </Link>
               </div>
             )
           })}

@@ -17,20 +17,20 @@ export default function Home({ allPostsData }) {
               <div id="scf-message-contactForm">
               </div>
               <div id="scf-form-contactForm">
-              <form method="POST" action="https://horizontrading.cn/contact" accept-charset="UTF-8" className="contact-form" id="scf-form-id-contactForm" data-request="contactForm::onFormSend" data-request-validate="data-request-validate" data-request-files="data-request-files" data-request-update="'contactForm::scf-message':'#scf-message-contactForm','contactForm::scf-form':'#scf-form-contactForm'" novalidate="novalidate" enctype="multipart/form-data">
+              <form method="POST" action="/contact" className="contact-form" id="scf-form-id-contactForm" noValidate="novalidate">
               <input name="_handler" type="hidden" value="contactForm::onFormSend" />
               <input name="_session_key" type="hidden" value="7q9proYB6e5r5uiReVprmXM5heBqQEqmFjQch5lB" />
               <input name="_token" type="hidden" value="9IC5AlAf6qyh3If57czXxKcyqGWUEV88Dno4vJe5" />
-              <div className="field"><label className="control-label label " for="contactForm-name" style={{display: "none"}}>Name *</label>
+              <div className="field"><label className="control-label label " htmlFor="contactForm-name" style={{display: "none"}}>Name *</label>
               <input id="contactForm-name" className="control" name="name" placeholder="Name *" type="text" />
               </div>
-              <div className="field"><label className="control-label label " for="contactForm-email" style={{display: "none"}}>Email *</label>
+              <div className="field"><label className="control-label label " htmlFor="contactForm-email" style={{display: "none"}}>Email *</label>
               <input id="contactForm-email" className="control" name="email" placeholder="Email *" type="email" />
               </div>
-              <div className="field"><label className="control-label label " for="contactForm-country" style={{display: "none"}}>Your Country *</label>
+              <div className="field"><label className="control-label label " htmlFor="contactForm-country" style={{display: "none"}}>Your Country *</label>
               <input id="contactForm-country" className="control" name="country" placeholder="Your Country *" type="text" />
               </div>
-              <div className="field"><label className="control-label label " for="contactForm-message" style={{display: "none"}}>Please leave a message here...</label><textarea id="contactForm-message" className="control" name="message" placeholder="Please leave a message here..." rows="5"></textarea></div>
+              <div className="field"><label className="control-label label " htmlFor="contactForm-message" style={{display: "none"}}>Please leave a message here...</label><textarea id="contactForm-message" className="control" name="message" placeholder="Please leave a message here..." rows="5"></textarea></div>
               <div id="submit-wrapper-contactForm" className="control"><button type="submit" data-attach-loading="" className="oc-loader button">Send</button></div>
               </form>
               </div>

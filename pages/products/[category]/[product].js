@@ -42,9 +42,21 @@ export default function Home({ slug, currentProduct, currentCategory, categoryNa
           <div className="column has-border is-three-fifths-desktop py-6 px-6">
             <nav className="breadcrumb is-small" aria-label="breadcrumbs">
               <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/products">Products</a></li>
-                <li><a href={"/products/" + categoryName.replace(/ /g, '-')}>{categoryName}</a></li>
+                <li>
+                  <Link href="/">
+                    <a>Home</a>
+                  </Link>
+                </li>
+                <li>
+                <Link href="/products">
+                  <a>Products</a>
+                </Link>
+                </li>
+                <li>
+                  <Link href={"/products/" + categoryName.replace(/ /g, '-')}>
+                    <a>{categoryName}</a>
+                  </Link>
+                </li>
                 <li className="is-active"><a href="#" aria-current="page">{currentProduct[0]['product'].toUpperCase()}</a></li>
               </ul>
             </nav>
@@ -58,10 +70,12 @@ export default function Home({ slug, currentProduct, currentCategory, categoryNa
               <p>{currentProduct[0]['description']}</p>
             </div>
             <div className="buttons mt-5">
-            <a className="button is-primary is-normal px-4 py-5 is-size-6" href="/contact">
-            <span className="material-icons">mail</span>
-            <h3 className="mr-2 is-uppercase has-text-weight-medium">Request a quote</h3>
-            </a>
+            <Link href="/contact">
+              <a className="button is-primary is-normal px-4 py-5 is-size-6">
+              <span className="material-icons">mail</span>
+              <h3 className="mr-2 is-uppercase has-text-weight-medium">Request a quote</h3>
+              </a>
+            </Link>
             </div>
           </div>
           <div className="column has-border has-no-left-border-desktop is-two-fifths-desktop">

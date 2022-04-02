@@ -14,17 +14,14 @@ export default function Home({ allPostsData }) {
             <h2 className="is-size-4 is-uppercase has-text-weight-bold my-6 py-3" style={{ borderBottom: "1px solid var(--color-border)"}}>About</h2>
             <div className="columns is-flex-wrap-wrap is-flex-direction-column pb-6 is-align-items-flex-start">
               <div className="column">
-                <p>Established in mid. 2021, HORIZON TRADING is aiming to source quality industrial products for our clients internationally, while bringing personal and attentive customer services.&nbsp;</p>
-                <p><br /></p>
+                <p>Established in mid. 2021, HORIZON TRADING is aiming to source quality industrial products for our clients internationally, while bringing personal and attentive customer services.</p>
                 <h1 className="has-text-left has-text-weight-medium is-size-5-desktop mb-4"><strong>SERVICES:</strong></h1>
                 <ul>
                   <li><strong>Qualified Suppliers Research</strong>: The benifit of being a sales engineer for quite some years is that I'm capable of find the suitable and qualified suppliers for you to choose from, saving your time and energy.</li>
                 </ul>
-                  <p><br /></p>
                 <ul>
                   <li><strong>Factory Audit</strong>: Should you like to have someone audit Chinese factories on your behalf, I can travel to cities and help you audit the factories.</li>
                 </ul>
-                  <p><br /></p>
                 <ul>
                   <li><strong>Product Photography</strong>: If you're thinking about developing your own brand, you'll need to make a decent website and product brochure in order to market your imported products locally, which all requires professional product photos, and this is where I come in helpful as I had experiences with taking professional product photos for my clients, and I can definitely help you with that.</li>
                 </ul>
@@ -34,7 +31,6 @@ export default function Home({ allPostsData }) {
                 <div className="is-flex is-flex-desktop mb-2">
                   <span className="material-icons is-size-4">email</span>
                   <h2 className="is-size-6" style={{userSelect: "all"}}>sales@horizontrading.cn</h2>
-                  <span className="is-size-7" style={{marginLeft: "10px;"}}>⤺ click on the email to select</span>
                 </div>
               </div>
             </div>
