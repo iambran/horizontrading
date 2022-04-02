@@ -258,6 +258,15 @@ div.product-card:focus {
     .sidebar-header .column:first-child {
         margin-top: 0 !important;
     }
+
+    .sidebar-header .column:not(:first-child):not(.submenu) {
+      display: none;
+    }
+
+    .sidebar-header.open .column:not(:first-child):not(.submenu) {
+      display: block;
+    }
+
     .sidebar-header .logo img {
         max-height: 45px;
     }

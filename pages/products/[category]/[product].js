@@ -37,7 +37,6 @@ export default function Home({ slug, currentProduct, currentCategory, categoryNa
   return (
     <Layout home>
       <Meta />
-      <Header />
       <section className="product-intro px-4 has-background-white">
         <div className="columns p-4">
           <div className="column has-border is-three-fifths-desktop py-6 px-6">

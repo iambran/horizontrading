@@ -13,7 +13,6 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Meta />
-      <Header />
       <section className="category-page px-4 has-background-white">
         <div className="has-border p-4 px-6 m-1 mb-4">
           <div className="columns px-0 py-4 is-flex-wrap-wrap m-0 with-custom-column-gap">
@@ -32,8 +31,6 @@ export default function Home({ allPostsData }) {
               </a>
             </div>
           ))}
-
-
           </div>
         </div>
       </section>

@@ -31,7 +31,6 @@ export default function Home({ slug, category, categoryID, products }) {
   return (
     <Layout home>
       <Meta />
-      <Header />
       <section className="category-page px-4 has-background-white">
         <div className="has-border p-4 px-6 m-1 mb-4">
           <nav className="breadcrumb is-small mb-0 mt-4" aria-label="breadcrumbs">
