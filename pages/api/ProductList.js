@@ -1,7 +1,7 @@
 const ProductList = [
   {
     "product": "hl50c",
-    "product-image": "50c.jpg",
+    "product-image": "50C.jpg",
     "category-id": "1",
     "description": "HL50C - 2\" portable diesel clean water pump, powered by reliable air cooled diesel engines, is suitable for various applications like dewatering, agricultural, pool water removal, irrigation, etc. Strong-built pump housing and cast iron impeller extends the life of the pump. Carbon-ceramic mechanical seal designed for long and superior abrasion resistance. Self-priming design (Require initial priming to operate).",
     "specs": [
@@ -26,7 +26,7 @@ const ProductList = [
   },
   {
     "product": "hl80c",
-    "product-image": "80c.jpg",
+    "product-image": "80C.jpg",
     "category-id": "1",
     "description": "HL50C - 2\" portable diesel clean water pump, powered by reliable air cooled diesel engines, is suitable for various applications like dewatering, agricultural, pool water removal, irrigation, etc. Strong-built pump housing and cast iron impeller extends the life of the pump. Carbon-ceramic mechanical seal designed for long and superior abrasion resistance. Self-priming design (Require initial priming to operate).",
     "specs": [
@@ -51,7 +51,7 @@ const ProductList = [
   },
   {
     "product": "hl100c",
-    "product-image": "100c.jpg",
+    "product-image": "100C.jpg",
     "category-id": "1",
     "description": "HL100C - 4\" portable diesel clean water pump, powered by reliable air cooled diesel engines, is suitable for various applications like dewatering, agricultural, pool water removal, irrigation, etc. Strong-built pump housing and cast iron impeller extends the life of the pump. Carbon-ceramic mechanical seal designed for long and superior abrasion resistance. Self-priming design (Require initial priming to operate).",
     "specs": [
