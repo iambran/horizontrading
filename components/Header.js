@@ -6,7 +6,7 @@ export default function Header() {
     <header id="layout-header">
       <div className="sidebar-header is-flex-direction-column">
         <div className="column is-flex p-4 pr-6 mt-6">
-          <a href="https://horizontrading.cn" className="logo px-0">
+          <a href="/" className="logo px-0">
           <img src="https://horizontrading.cn/themes/horizon/assets/images/horizon-trading-rounded.svg" width="auto" height="40">
           </img>
           </a>
