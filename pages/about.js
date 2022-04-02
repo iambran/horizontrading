@@ -17,13 +17,13 @@ export default function Home({ allPostsData }) {
                 <p>Established in mid. 2021, HORIZON TRADING is aiming to source quality industrial products for our clients internationally, while bringing personal and attentive customer services.</p>
                 <h1 className="has-text-left has-text-weight-medium is-size-5-desktop mb-4"><strong>SERVICES:</strong></h1>
                 <ul>
-                  <li><strong>Qualified Suppliers Research</strong>: The benifit of being a sales engineer for quite some years is that I'm capable of find the suitable and qualified suppliers for you to choose from, saving your time and energy.</li>
+                  <li><strong>Qualified Suppliers Research</strong>: The benifit of being a sales engineer for quite some years is that I am capable of find the suitable and qualified suppliers for you to choose from, saving your time and energy.</li>
                 </ul>
                 <ul>
                   <li><strong>Factory Audit</strong>: Should you like to have someone audit Chinese factories on your behalf, I can travel to cities and help you audit the factories.</li>
                 </ul>
                 <ul>
-                  <li><strong>Product Photography</strong>: If you're thinking about developing your own brand, you will need to make a decent website and product brochure in order to market your imported products locally, which all requires professional product photos, and this is where I come in helpful as I had experiences with taking professional product photos for my clients, and I can definitely help you with that.</li>
+                  <li><strong>Product Photography</strong>: If you are thinking about developing your own brand, you will need to make a decent website and product brochure in order to market your imported products locally, which all requires professional product photos, and this is where I come in helpful as I had experiences with taking professional product photos for my clients, and I can definitely help you with that.</li>
                 </ul>
               </div>
               <div className="column">

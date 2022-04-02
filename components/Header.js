@@ -54,7 +54,7 @@ export default function Header() {
         </div>
         <div className="column p-0">
         <Link href="/contact">
-          <a className="menu-link is-block has-text-weight-bold has-text-white is-size-4 p-4" href="/contact">Contact</a>
+          <a className="menu-link is-block has-text-weight-bold has-text-white is-size-4 p-4">Contact</a>
         </Link>
         </div>
       </div>
