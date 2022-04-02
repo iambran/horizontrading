@@ -18,7 +18,8 @@ export default function Home({ allPostsData }) {
           <div className="columns px-0 py-4 is-flex-wrap-wrap m-0 with-custom-column-gap">
           {ProductCategory.map((cat) => (
             <div key={cat.id} className="column is-6 mb-4 p-0">
-              <a href={"/products/" + cat.name.replace(/ /g, '-')} className="has-custom-cursor category-link">
+            <Link href={"/products/" + cat.name.replace(/ /g, '-')}>
+              <a className="has-custom-cursor category-link">
                 <div className="columns is-flex-direction-column is-vcentered m-0">
                   <div className="column has-text-centered has-border m-4 bottom-margin-only-mobile" style={{width: "100%"}}>
                     <img className="" src={imageDir + cat.image} alt="Diesel Water Pump" width="400" height="auto" />
@@ -29,6 +30,7 @@ export default function Home({ allPostsData }) {
                   </div>
                 </div>
               </a>
+            </Link>
             </div>
           ))}
 

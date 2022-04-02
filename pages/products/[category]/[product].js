@@ -80,7 +80,7 @@ export default function Home({ slug, currentProduct, currentCategory, categoryNa
           </div>
           <div className="column has-border has-no-left-border-desktop is-two-fifths-desktop">
             <div className="gallery">
-              <Image src={imageDir + currentProduct[0]['product-image']} alt=" " />
+              <Image src={imageDir + currentProduct[0]['product-image'].toUpperCase()} alt=" " />
             </div>
           </div>
         </div>
@@ -113,7 +113,7 @@ export default function Home({ slug, currentProduct, currentCategory, categoryNa
               {relatedProducts.map(product => {
                 return (
                   <div className="column is-4-desktop my-1" style={{ position: "relative" }} key={product['product']}>
-                    <Image className="product-img has-border" src={imageDir + product['product-image']} alt={categoryName} width="400" height="auto" />
+                    <Image className="product-img has-border" src={imageDir + product['product-image'].toUpperCase()} alt={categoryName} width="400" height="auto" />
                     <div className="spec_value has-text-center has-text-weight-semibold is-size-5">
                       {product['product'].toUpperCase()}
                     </div>
